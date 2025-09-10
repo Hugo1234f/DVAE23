@@ -6,15 +6,17 @@ Like we discussed in class, we could break an n-classification problem into a bi
 
 ### Q2
 
-1. Chosing a random vector w0 = [1,1], we first take  (correct)
+1. Chosing a random vector **w0** = [1,1], we first take <[1,1], [0.7, 0.5]> = 1  (correct)
 
-2. The same happens to datapoint #2:  (correct)
+2. The same happens to datapoint #2: <[1,1], [0.8, 0.3]> = 1 (correct)
 
-3. The third point is classified incorectly:  (wrong). We then calculate a correction to w1 = [1,1] + 1/2(-1-1)[-0.7, 0.7] = [1,1] + [-0.4, 0.7] = [0.6, 1.7]
+3. The third point is classified incorectly: <[1,1], [-0.47, 0.7]> = 1 (wrong). We then calculate a correction **w1** = [1,1] + 1/2(-1-1)[-0.7, 0.7] = [1,1] + [-0.4, 0.7] = [0.6, 1.7]
 
-4. #4 is also classified incorrectly:  (wrong). Our correction results in w2 = [0.7, 1.7] + 1/2(-1-1)[-0.6, 0.3] = [0.6, 1.7] + [-0.6, 0.3] = [0, 2]
+4. #4 is also classified incorrectly: <[0.7, 1.7], [-0.6, 0.3]> = 1 (wrong). Our correction results **w2** = [0.7, 1.7] + 1/2(-1-1)[-0.6, 0.3] = [0.6, 1.7] + [-0.6, 0.3] = [0, 2]
 
-The rest of the points are correctly classified. Answer: w = [0,2]. The conditions are satisfied since D is linearly seperable, all distances are non zero, and the triangle criteria holds up.
+The rest of the points are correctly classified. 
+
+Answer: **w** = [0,2]. The conditions are satisfied since D is linearly seperable, all distances are non zero, and the triangle criteria holds up.
 
 ### Q3
 
