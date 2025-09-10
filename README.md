@@ -6,13 +6,13 @@ Like we discussed in class, we could break an n-classification problem into a bi
 
 ### Q2
 
-1. Chosing a random vector **w~0~** = [1,1], we first take <[1,1], [0.7, 0.5]> = 1  (correct)
+1. Chosing a random vector **w<sub>0</sub>** = [1,1], we first take <[1,1], [0.7, 0.5]> = 1  (correct)
 
 2. The same happens to datapoint #2: <[1,1], [0.8, 0.3]> = 1 (correct)
 
-3. The third point is classified incorectly: <[1,1], [-0.47, 0.7]> = 1 (wrong). We then calculate a correction **w~1~** = [1,1] + 1/2(-1-1)[-0.7, 0.7] = [1,1] + [-0.4, 0.7] = [0.6, 1.7]
+3. The third point is classified incorectly: <[1,1], [-0.47, 0.7]> = 1 (wrong). We then calculate a correction **w<sub>1</sub>** = [1,1] + 1/2(-1-1)[-0.7, 0.7] = [1,1] + [-0.4, 0.7] = [0.6, 1.7]
 
-4. #4 is also classified incorrectly: <[0.7, 1.7], [-0.6, 0.3]> = 1 (wrong). Our correction results **w~2~** = [0.7, 1.7] + 1/2(-1-1)[-0.6, 0.3] = [0.6, 1.7] + [-0.6, 0.3] = [0, 2]
+4. #4 is also classified incorrectly: <[0.7, 1.7], [-0.6, 0.3]> = 1 (wrong). Our correction results **w<sub>2</sub>** = [0.7, 1.7] + 1/2(-1-1)[-0.6, 0.3] = [0.6, 1.7] + [-0.6, 0.3] = [0, 2]
 
 The rest of the points are correctly classified. 
 
