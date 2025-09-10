@@ -6,22 +6,9 @@ Like we discussed in class, we could break an n-classification problem into a bi
 
 ### Q2
 
-1. Chosing a random vector:
+![Latex Math](./assign1/p2_img.png)
 
-**w₀** = [1
-      1]
-
- $\mathbf{w_0} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$, we first take <[1,1], [0.7, 0.5]> = 1  (correct)
-
-2. The same happens to datapoint #2: <[1,1], [0.8, 0.3]> = 1 (correct)
-
-3. The third point is classified incorectly: <[1,1], [-0.47, 0.7]> = 1 (wrong). We then calculate a correction **w<sub>1</sub>** = [1,1] + 1/2(-1-1)[-0.7, 0.7] = [1,1] + [-0.4, 0.7] = [0.6, 1.7]
-
-4. #4 is also classified incorrectly: <[0.7, 1.7], [-0.6, 0.3]> = 1 (wrong). Our correction results **w<sub>2</sub>** = [0.7, 1.7] + 1/2(-1-1)[-0.6, 0.3] = [0.6, 1.7] + [-0.6, 0.3] = [0, 2]
-
-The rest of the points are correctly classified. 
-
-Answer: **w<sub>2</sub>** = [0,2]. The conditions are satisfied since D is linearly seperable, all distances are non zero, and the triangle criteria holds up.
+The conditions are satisfied since D is linearly seperable, all distances are non zero, and the triangle criteria holds up.
 
 ### Q3
 
