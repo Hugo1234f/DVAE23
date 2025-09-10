@@ -6,7 +6,7 @@ Like we discussed in class, we could break an n-classification problem into a bi
 
 ### Q2
 
-1. Chosing a random vector **w<sub>0</sub>** = [1,1], we first take <[1,1], [0.7, 0.5]> = 1  (correct)
+1. Chosing a random vector $\mathbf{w_0}$ = [1,1], we first take <[1,1], [0.7, 0.5]> = 1  (correct)
 
 2. The same happens to datapoint #2: <[1,1], [0.8, 0.3]> = 1 (correct)
 
