@@ -16,7 +16,7 @@ Like we discussed in class, we could break an n-classification problem into a bi
 
 The rest of the points are correctly classified. 
 
-Answer: **w~2~** = [0,2]. The conditions are satisfied since D is linearly seperable, all distances are non zero, and the triangle criteria holds up.
+Answer: **w<sub>2</sub>** = [0,2]. The conditions are satisfied since D is linearly seperable, all distances are non zero, and the triangle criteria holds up.
 
 ### Q3
 
